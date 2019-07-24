@@ -1,0 +1,1257 @@
+.++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++.
+.------------------- TASTYIGNITER SETUP LOG ------------------.
+.++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++.
+[2019/07/11 12:54:56] => Host: Windows NT SAVITAR-PC 10.0 build 17763 (Windows 10) AMD64
+[2019/07/11 12:54:56] => PHP version: 7.3.6
+[2019/07/11 12:54:56] => Server software: Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.6
+[2019/07/11 12:54:56] => Operating system: WINNT
+[2019/07/11 12:54:56] => Memory limit: 128M
+[2019/07/11 12:54:56] => Max execution time: 30
+[2019/07/11 12:54:56] => .============================ POST REQUEST ==========================.
+[2019/07/11 12:54:56] => Postback payload: Array
+(
+    [code] => php
+    [handler] => onCheckRequirement
+)
+
+[2019/07/11 12:54:56] => System check: php
+[2019/07/11 12:54:56] => Requirement php +OK
+[2019/07/11 12:54:56] => Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 12:54:58] => .============================ POST REQUEST ==========================.
+[2019/07/11 12:54:58] => Postback payload: Array
+(
+    [code] => mysqli
+    [handler] => onCheckRequirement
+)
+
+[2019/07/11 12:54:58] => System check: mysqli
+[2019/07/11 12:54:58] => Requirement mysqli +OK
+[2019/07/11 12:54:58] => Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 12:54:59] => .============================ POST REQUEST ==========================.
+[2019/07/11 12:54:59] => Postback payload: Array
+(
+    [code] => pdo
+    [handler] => onCheckRequirement
+)
+
+[2019/07/11 12:54:59] => System check: pdo
+[2019/07/11 12:54:59] => Requirement pdo +OK
+[2019/07/11 12:54:59] => Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 12:55:01] => .============================ POST REQUEST ==========================.
+[2019/07/11 12:55:01] => Postback payload: Array
+(
+    [code] => curl
+    [handler] => onCheckRequirement
+)
+
+[2019/07/11 12:55:01] => System check: curl
+[2019/07/11 12:55:01] => Requirement curl +OK
+[2019/07/11 12:55:01] => Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 12:55:03] => .============================ POST REQUEST ==========================.
+[2019/07/11 12:55:03] => Postback payload: Array
+(
+    [code] => connection
+    [handler] => onCheckRequirement
+)
+
+[2019/07/11 12:55:03] => System check: connection
+[2019/07/11 12:55:03] => Server request: ping
+[2019/07/11 12:55:04] => Request information: Array
+(
+    [url] => https://api.tastyigniter.com/v2/ping
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 714
+    [request_size] => 134
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 1.155022
+    [namelookup_time] => 0.468726
+    [connect_time] => 0.558374
+    [pretransfer_time] => 0.71313
+    [size_upload] => 40
+    [size_download] => 26
+    [speed_download] => 22
+    [speed_upload] => 34
+    [download_content_length] => -1
+    [upload_content_length] => 40
+    [starttransfer_time] => 0.713152
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 104.24.114.215
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 192.168.1.3
+    [local_port] => 56293
+    [http_version] => 3
+    [protocol] => 2
+    [ssl_verifyresult] => 0
+    [scheme] => HTTPS
+    [appconnect_time_us] => 712509
+    [connect_time_us] => 558374
+    [namelookup_time_us] => 468726
+    [pretransfer_time_us] => 713130
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 713152
+    [total_time_us] => 1155022
+)
+
+[2019/07/11 12:55:04] => Requirement connection +OK
+[2019/07/11 12:55:04] => Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 12:55:05] => .============================ POST REQUEST ==========================.
+[2019/07/11 12:55:05] => Postback payload: Array
+(
+    [code] => mbstring
+    [handler] => onCheckRequirement
+)
+
+[2019/07/11 12:55:05] => System check: mbstring
+[2019/07/11 12:55:05] => Requirement mbstring +OK
+[2019/07/11 12:55:05] => Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 12:55:07] => .============================ POST REQUEST ==========================.
+[2019/07/11 12:55:07] => Postback payload: Array
+(
+    [code] => ssl
+    [handler] => onCheckRequirement
+)
+
+[2019/07/11 12:55:07] => System check: ssl
+[2019/07/11 12:55:07] => Requirement ssl +OK
+[2019/07/11 12:55:07] => Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 12:55:08] => .============================ POST REQUEST ==========================.
+[2019/07/11 12:55:08] => Postback payload: Array
+(
+    [code] => gd
+    [handler] => onCheckRequirement
+)
+
+[2019/07/11 12:55:08] => System check: gd
+[2019/07/11 12:55:08] => Requirement gd +OK
+[2019/07/11 12:55:08] => Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 12:55:10] => .============================ POST REQUEST ==========================.
+[2019/07/11 12:55:10] => Postback payload: Array
+(
+    [code] => zip
+    [handler] => onCheckRequirement
+)
+
+[2019/07/11 12:55:10] => System check: zip
+[2019/07/11 12:55:10] => Requirement zip +OK
+[2019/07/11 12:55:10] => Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 12:55:11] => .============================ POST REQUEST ==========================.
+[2019/07/11 12:55:11] => Postback payload: Array
+(
+    [code] => writable
+    [handler] => onCheckRequirement
+)
+
+[2019/07/11 12:55:11] => System check: writable
+[2019/07/11 12:55:11] => Requirement writable +OK
+[2019/07/11 12:55:11] => Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 12:55:22] => .============================ POST REQUEST ==========================.
+[2019/07/11 12:55:22] => Postback payload: Array
+(
+    [license_agreed] => 1
+    [requirement] => complete
+    [handler] => onCheckLicense
+)
+
+[2019/07/11 12:55:22] => License & requirement check: complete
+[2019/07/11 12:55:22] => Execute handler (onCheckLicense): Array
+(
+    [step] => database
+)
+
+[2019/07/11 01:01:17] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:01:17] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:01:17] => Database check: db_tastydev
+[2019/07/11 01:01:18] => Database db_tastydev +OK
+[2019/07/11 01:01:18] => Execute handler (onCheckDatabase): Array
+(
+    [step] => settings
+)
+
+[2019/07/11 01:04:12] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:04:12] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:04:12] => Settings check: ENCODERS RESTAURANT
+[2019/07/11 01:04:12] => Settings +OK
+[2019/07/11 01:04:12] => Execute handler (onValidateSettings): Array
+(
+    [step] => install
+)
+
+[2019/07/11 01:04:27] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:04:27] => Postback payload: Array
+(
+    [site_key] => 
+    [requirement] => complete
+    [handler] => onFetchItems
+)
+
+[2019/07/11 01:04:27] => Server request: items
+[2019/07/11 01:04:29] => Request information: Array
+(
+    [url] => https://api.tastyigniter.com/v2/items
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 714
+    [request_size] => 135
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 2.421768
+    [namelookup_time] => 0.220114
+    [connect_time] => 0.324938
+    [pretransfer_time] => 0.464355
+    [size_upload] => 82
+    [size_download] => 3292
+    [speed_download] => 1359
+    [speed_upload] => 33
+    [download_content_length] => -1
+    [upload_content_length] => 82
+    [starttransfer_time] => 0.464371
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 104.24.114.215
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 192.168.1.3
+    [local_port] => 56376
+    [http_version] => 3
+    [protocol] => 2
+    [ssl_verifyresult] => 0
+    [scheme] => HTTPS
+    [appconnect_time_us] => 463813
+    [connect_time_us] => 324938
+    [namelookup_time_us] => 220114
+    [pretransfer_time_us] => 464355
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 464371
+    [total_time_us] => 2421768
+)
+
+[2019/07/11 01:04:29] => Execute handler (onFetchItems): Array
+(
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 8
+                    [name] => TastyIgniter Orange
+                    [code] => tastyigniter-orange
+                    [author] => TastyIgniter Dev Team
+                    [icon] => https://raw.githubusercontent.com/tastyigniter/ti-theme-orange/master/screenshot.png
+                    [type] => theme
+                    [version] => v2.1.0-beta.6
+                    [description] => Free Modern, Responsive and Clean TastyIgniter Theme based on Bootstrap 4.
+                    [homepage] => https://tastyigniter.com/marketplace/themes/tastyigniter-orange
+                    [created_at] => 2018-04-27 23:47:40
+                    [updated_at] => 2018-04-29 15:29:17
+                    [require] => Array
+                        (
+                            [data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 1
+                                            [name] => FrontEnd
+                                            [code] => igniter.frontend
+                                            [author] => SamPoyigi
+                                            [icon] => fa-store
+                                            [type] => extension
+                                            [version] => v1.1.0-beta.5
+                                            [description] => Manage basic components like Slider, Featured Menu Items, Banners and Newsletter
+                                            [homepage] => https://tastyigniter.com/marketplace/extensions/igniter-frontend
+                                            [created_at] => 2018-04-27 23:47:39
+                                            [updated_at] => 2018-04-29 15:29:16
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => 2
+                                            [name] => Pay Register
+                                            [code] => igniter.payregister
+                                            [author] => SamPoyigi
+                                            [icon] => fa-money
+                                            [type] => extension
+                                            [version] => v1.1.0-beta.5
+                                            [description] => Allows you to accept credit card payments using PayPal payment gateway during checkout.
+                                            [homepage] => https://tastyigniter.com/marketplace/extensions/igniter-payregister
+                                            [created_at] => 2018-04-27 23:47:39
+                                            [updated_at] => 2018-04-29 15:29:16
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => 3
+                                            [name] => Reservations
+                                            [code] => igniter.reservation
+                                            [author] => SamPoyigi
+                                            [icon] => fa-calendar
+                                            [type] => extension
+                                            [version] => v1.1.0-beta.6
+                                            [description] => Provides a simple booking form to accept table reservations.
+                                            [homepage] => https://tastyigniter.com/marketplace/extensions/igniter-reservation
+                                            [created_at] => 2018-04-27 23:47:39
+                                            [updated_at] => 2018-04-29 15:29:16
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [id] => 4
+                                            [name] => Cart
+                                            [code] => igniter.cart
+                                            [author] => SamPoyigi
+                                            [icon] => fa-shopping-cart
+                                            [type] => extension
+                                            [version] => v2.0.0-beta.8
+                                            [description] => Easily add a shopping cart to your site. The most powerful way to sell your menu items.
+                                            [homepage] => https://tastyigniter.com/marketplace/extensions/igniter-cart
+                                            [created_at] => 2018-04-27 23:47:39
+                                            [updated_at] => 2018-04-29 15:29:16
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [id] => 5
+                                            [name] => Pages Links
+                                            [code] => igniter.pages
+                                            [author] => SamPoyigi
+                                            [icon] => fa-files-o
+                                            [type] => extension
+                                            [version] => v1.2.0-beta.5
+                                            [description] => Allows end users to create and edit dynamic pages with a simple WYSIWYG user interface.
+                                            [homepage] => https://tastyigniter.com/marketplace/extensions/igniter-pages
+                                            [created_at] => 2018-04-27 23:47:39
+                                            [updated_at] => 2018-04-29 15:29:16
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [id] => 6
+                                            [name] => User
+                                            [code] => igniter.user
+                                            [author] => SamPoyigi
+                                            [icon] => fa-user
+                                            [type] => extension
+                                            [version] => v1.1.0-beta.6
+                                            [description] => Management of front-end users (customers) on TastyIgniter.
+                                            [homepage] => https://tastyigniter.com/marketplace/extensions/igniter-user
+                                            [created_at] => 2018-04-27 23:47:40
+                                            [updated_at] => 2018-04-29 15:29:17
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [id] => 7
+                                            [name] => Local
+                                            [code] => igniter.local
+                                            [author] => SamPoyigi
+                                            [icon] => fa-map-marker
+                                            [type] => extension
+                                            [version] => v1.2.0-beta.8
+                                            [description] => This extension allows your customers to find the nearest location.
+                                            [homepage] => https://tastyigniter.com/marketplace/extensions/igniter-local
+                                            [created_at] => 2018-04-27 23:47:40
+                                            [updated_at] => 2018-04-29 15:29:17
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [meta] => Array
+        (
+            [pagination] => Array
+                (
+                    [total] => 1
+                    [count] => 1
+                    [per_page] => 30
+                    [current_page] => 1
+                    [total_pages] => 1
+                    [links] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+
+[2019/07/11 01:04:40] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:04:40] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:04:40] => Foundation setup: apply
+[2019/07/11 01:04:40] => Server request: core/install
+[2019/07/11 01:04:41] => Request information: Array
+(
+    [url] => https://api.tastyigniter.com/v2/core/install
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 714
+    [request_size] => 143
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 1.053029
+    [namelookup_time] => 0.00138
+    [connect_time] => 0.095238
+    [pretransfer_time] => 0.249043
+    [size_upload] => 615
+    [size_download] => 1697
+    [speed_download] => 1611
+    [speed_upload] => 584
+    [download_content_length] => -1
+    [upload_content_length] => 615
+    [starttransfer_time] => 0.249062
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 104.24.114.215
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 443
+    [local_ip] => 192.168.1.3
+    [local_port] => 56381
+    [http_version] => 3
+    [protocol] => 2
+    [ssl_verifyresult] => 0
+    [scheme] => HTTPS
+    [appconnect_time_us] => 248527
+    [connect_time_us] => 95238
+    [namelookup_time_us] => 1380
+    [pretransfer_time_us] => 249043
+    [redirect_time_us] => 0
+    [starttransfer_time_us] => 249062
+    [total_time_us] => 1053029
+)
+
+[2019/07/11 01:04:41] => Foundation setup: apply +OK
+[2019/07/11 01:04:41] => Execute handler (onInstall): Array
+(
+    [result] => Array
+        (
+            [download] => Array
+                (
+                    [0] => Array
+                        (
+                            [action] => install
+                            [process] => downloadCore
+                            [code] => tastyigniter
+                            [name] => TastyIgniter
+                            [icon] => 
+                            [type] => core
+                            [hash] => b272d5f818235bed2aea76119040ac75ac8f7fe9
+                            [version] => v3.0.4-beta.9.1
+                            [description] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [action] => install
+                            [process] => downloadExtension
+                            [code] => igniter.frontend
+                            [name] => FrontEnd
+                            [icon] => fa-store
+                            [type] => extension
+                            [hash] => 2e592f96f34ae6652fd54226452f5db06133abce
+                            [version] => v1.1.0-beta.5
+                            [description] => 
+                        )
+
+                    [2] => Array
+                        (
+                            [action] => install
+                            [process] => downloadExtension
+                            [code] => igniter.payregister
+                            [name] => Pay Register
+                            [icon] => fa-money
+                            [type] => extension
+                            [hash] => 5a8dbae5977e76e98353b2f89895058135d85331
+                            [version] => v1.1.0-beta.5
+                            [description] => 
+                        )
+
+                    [3] => Array
+                        (
+                            [action] => install
+                            [process] => downloadExtension
+                            [code] => igniter.reservation
+                            [name] => Reservation
+                            [icon] => fa-calendar
+                            [type] => extension
+                            [hash] => 5b95fcc6497976d79945e324a272a67c58b820cb
+                            [version] => v1.1.0-beta.6
+                            [description] => 
+                        )
+
+                    [4] => Array
+                        (
+                            [action] => install
+                            [process] => downloadExtension
+                            [code] => igniter.cart
+                            [name] => Cart
+                            [icon] => fa-shopping-cart
+                            [type] => extension
+                            [hash] => a733c11e291e37381f9d649cc9a068bc327346e7
+                            [version] => v2.0.0-beta.8
+                            [description] => 
+                        )
+
+                    [5] => Array
+                        (
+                            [action] => install
+                            [process] => downloadExtension
+                            [code] => igniter.pages
+                            [name] => Pages
+                            [icon] => fa-files-o
+                            [type] => extension
+                            [hash] => f871f1617ee0da0a0b6280a4ffee17b327518352
+                            [version] => v1.2.0-beta.5
+                            [description] => 
+                        )
+
+                    [6] => Array
+                        (
+                            [action] => install
+                            [process] => downloadExtension
+                            [code] => igniter.user
+                            [name] => User
+                            [icon] => fa-user
+                            [type] => extension
+                            [hash] => 513055b366a38ea72fd2aec43257fced053268cc
+                            [version] => v1.1.0-beta.6
+                            [description] => 
+                        )
+
+                    [7] => Array
+                        (
+                            [action] => install
+                            [process] => downloadExtension
+                            [code] => igniter.local
+                            [name] => Local
+                            [icon] => fa-map-marker
+                            [type] => extension
+                            [hash] => cb92efa125311c9316932c708929a75df96ab2ae
+                            [version] => v1.2.0-beta.8
+                            [description] => 
+                        )
+
+                    [8] => Array
+                        (
+                            [action] => install
+                            [process] => downloadTheme
+                            [code] => tastyigniter-orange
+                            [name] => TastyIgniter Orange
+                            [icon] => https://raw.githubusercontent.com/tastyigniter/ti-theme-orange/master/screenshot.png
+                            [type] => theme
+                            [hash] => 8151970dbcb22a45a746d5b5b846ff534fe86286
+                            [version] => v2.1.0-beta.6
+                            [description] => 
+                        )
+
+                )
+
+            [extract] => Array
+                (
+                    [0] => Array
+                        (
+                            [action] => install
+                            [process] => extractCore
+                            [code] => tastyigniter
+                            [name] => TastyIgniter
+                            [icon] => 
+                            [type] => core
+                            [hash] => b272d5f818235bed2aea76119040ac75ac8f7fe9
+                            [version] => v3.0.4-beta.9.1
+                            [description] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [action] => install
+                            [process] => extractExtension
+                            [code] => igniter.frontend
+                            [name] => FrontEnd
+                            [icon] => fa-store
+                            [type] => extension
+                            [hash] => 2e592f96f34ae6652fd54226452f5db06133abce
+                            [version] => v1.1.0-beta.5
+                            [description] => 
+                        )
+
+                    [2] => Array
+                        (
+                            [action] => install
+                            [process] => extractExtension
+                            [code] => igniter.payregister
+                            [name] => Pay Register
+                            [icon] => fa-money
+                            [type] => extension
+                            [hash] => 5a8dbae5977e76e98353b2f89895058135d85331
+                            [version] => v1.1.0-beta.5
+                            [description] => 
+                        )
+
+                    [3] => Array
+                        (
+                            [action] => install
+                            [process] => extractExtension
+                            [code] => igniter.reservation
+                            [name] => Reservation
+                            [icon] => fa-calendar
+                            [type] => extension
+                            [hash] => 5b95fcc6497976d79945e324a272a67c58b820cb
+                            [version] => v1.1.0-beta.6
+                            [description] => 
+                        )
+
+                    [4] => Array
+                        (
+                            [action] => install
+                            [process] => extractExtension
+                            [code] => igniter.cart
+                            [name] => Cart
+                            [icon] => fa-shopping-cart
+                            [type] => extension
+                            [hash] => a733c11e291e37381f9d649cc9a068bc327346e7
+                            [version] => v2.0.0-beta.8
+                            [description] => 
+                        )
+
+                    [5] => Array
+                        (
+                            [action] => install
+                            [process] => extractExtension
+                            [code] => igniter.pages
+                            [name] => Pages
+                            [icon] => fa-files-o
+                            [type] => extension
+                            [hash] => f871f1617ee0da0a0b6280a4ffee17b327518352
+                            [version] => v1.2.0-beta.5
+                            [description] => 
+                        )
+
+                    [6] => Array
+                        (
+                            [action] => install
+                            [process] => extractExtension
+                            [code] => igniter.user
+                            [name] => User
+                            [icon] => fa-user
+                            [type] => extension
+                            [hash] => 513055b366a38ea72fd2aec43257fced053268cc
+                            [version] => v1.1.0-beta.6
+                            [description] => 
+                        )
+
+                    [7] => Array
+                        (
+                            [action] => install
+                            [process] => extractExtension
+                            [code] => igniter.local
+                            [name] => Local
+                            [icon] => fa-map-marker
+                            [type] => extension
+                            [hash] => cb92efa125311c9316932c708929a75df96ab2ae
+                            [version] => v1.2.0-beta.8
+                            [description] => 
+                        )
+
+                    [8] => Array
+                        (
+                            [action] => install
+                            [process] => extractTheme
+                            [code] => tastyigniter-orange
+                            [name] => TastyIgniter Orange
+                            [icon] => https://raw.githubusercontent.com/tastyigniter/ti-theme-orange/master/screenshot.png
+                            [type] => theme
+                            [hash] => 8151970dbcb22a45a746d5b5b846ff534fe86286
+                            [version] => v2.1.0-beta.6
+                            [description] => 
+                        )
+
+                )
+
+            [config] => Array
+                (
+                    [0] => Array
+                        (
+                            [items] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [code] => tastyigniter
+                                            [name] => TastyIgniter
+                                            [icon] => 
+                                            [type] => core
+                                            [hash] => b272d5f818235bed2aea76119040ac75ac8f7fe9
+                                            [version] => v3.0.4-beta.9.1
+                                            [description] => 
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [code] => igniter.frontend
+                                            [name] => FrontEnd
+                                            [icon] => fa-store
+                                            [type] => extension
+                                            [hash] => 2e592f96f34ae6652fd54226452f5db06133abce
+                                            [version] => v1.1.0-beta.5
+                                            [description] => 
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [code] => igniter.payregister
+                                            [name] => Pay Register
+                                            [icon] => fa-money
+                                            [type] => extension
+                                            [hash] => 5a8dbae5977e76e98353b2f89895058135d85331
+                                            [version] => v1.1.0-beta.5
+                                            [description] => 
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [code] => igniter.reservation
+                                            [name] => Reservation
+                                            [icon] => fa-calendar
+                                            [type] => extension
+                                            [hash] => 5b95fcc6497976d79945e324a272a67c58b820cb
+                                            [version] => v1.1.0-beta.6
+                                            [description] => 
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [code] => igniter.cart
+                                            [name] => Cart
+                                            [icon] => fa-shopping-cart
+                                            [type] => extension
+                                            [hash] => a733c11e291e37381f9d649cc9a068bc327346e7
+                                            [version] => v2.0.0-beta.8
+                                            [description] => 
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [code] => igniter.pages
+                                            [name] => Pages
+                                            [icon] => fa-files-o
+                                            [type] => extension
+                                            [hash] => f871f1617ee0da0a0b6280a4ffee17b327518352
+                                            [version] => v1.2.0-beta.5
+                                            [description] => 
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [code] => igniter.user
+                                            [name] => User
+                                            [icon] => fa-user
+                                            [type] => extension
+                                            [hash] => 513055b366a38ea72fd2aec43257fced053268cc
+                                            [version] => v1.1.0-beta.6
+                                            [description] => 
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [code] => igniter.local
+                                            [name] => Local
+                                            [icon] => fa-map-marker
+                                            [type] => extension
+                                            [hash] => cb92efa125311c9316932c708929a75df96ab2ae
+                                            [version] => v1.2.0-beta.8
+                                            [description] => 
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [code] => tastyigniter-orange
+                                            [name] => TastyIgniter Orange
+                                            [icon] => https://raw.githubusercontent.com/tastyigniter/ti-theme-orange/master/screenshot.png
+                                            [type] => theme
+                                            [hash] => 8151970dbcb22a45a746d5b5b846ff534fe86286
+                                            [version] => v2.1.0-beta.6
+                                            [description] => 
+                                        )
+
+                                )
+
+                            [process] => writeConfig
+                        )
+
+                )
+
+            [install] => Array
+                (
+                    [0] => Array
+                        (
+                            [items] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [code] => tastyigniter
+                                            [name] => TastyIgniter
+                                            [icon] => 
+                                            [type] => core
+                                            [hash] => b272d5f818235bed2aea76119040ac75ac8f7fe9
+                                            [version] => v3.0.4-beta.9.1
+                                            [description] => 
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [code] => igniter.frontend
+                                            [name] => FrontEnd
+                                            [icon] => fa-store
+                                            [type] => extension
+                                            [hash] => 2e592f96f34ae6652fd54226452f5db06133abce
+                                            [version] => v1.1.0-beta.5
+                                            [description] => 
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [code] => igniter.payregister
+                                            [name] => Pay Register
+                                            [icon] => fa-money
+                                            [type] => extension
+                                            [hash] => 5a8dbae5977e76e98353b2f89895058135d85331
+                                            [version] => v1.1.0-beta.5
+                                            [description] => 
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [code] => igniter.reservation
+                                            [name] => Reservation
+                                            [icon] => fa-calendar
+                                            [type] => extension
+                                            [hash] => 5b95fcc6497976d79945e324a272a67c58b820cb
+                                            [version] => v1.1.0-beta.6
+                                            [description] => 
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [code] => igniter.cart
+                                            [name] => Cart
+                                            [icon] => fa-shopping-cart
+                                            [type] => extension
+                                            [hash] => a733c11e291e37381f9d649cc9a068bc327346e7
+                                            [version] => v2.0.0-beta.8
+                                            [description] => 
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [code] => igniter.pages
+                                            [name] => Pages
+                                            [icon] => fa-files-o
+                                            [type] => extension
+                                            [hash] => f871f1617ee0da0a0b6280a4ffee17b327518352
+                                            [version] => v1.2.0-beta.5
+                                            [description] => 
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [code] => igniter.user
+                                            [name] => User
+                                            [icon] => fa-user
+                                            [type] => extension
+                                            [hash] => 513055b366a38ea72fd2aec43257fced053268cc
+                                            [version] => v1.1.0-beta.6
+                                            [description] => 
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [code] => igniter.local
+                                            [name] => Local
+                                            [icon] => fa-map-marker
+                                            [type] => extension
+                                            [hash] => cb92efa125311c9316932c708929a75df96ab2ae
+                                            [version] => v1.2.0-beta.8
+                                            [description] => 
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [code] => tastyigniter-orange
+                                            [name] => TastyIgniter Orange
+                                            [icon] => https://raw.githubusercontent.com/tastyigniter/ti-theme-orange/master/screenshot.png
+                                            [type] => theme
+                                            [hash] => 8151970dbcb22a45a746d5b5b846ff534fe86286
+                                            [version] => v2.1.0-beta.6
+                                            [description] => 
+                                        )
+
+                                )
+
+                            [process] => finishInstall
+                        )
+
+                )
+
+        )
+
+)
+
+[2019/07/11 01:04:41] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:04:41] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:04:41] => Foundation setup: downloadCore
+[2019/07/11 01:04:48] => Downloaded file (tastyigniter) to C:\xampp\htdocs\tasty-dev\setup/temp/ef0eaeec4a461084eb2522e05b439f26.zip
+[2019/07/11 01:04:48] => Foundation setup: downloadCore +OK
+[2019/07/11 01:04:48] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 01:04:49] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:04:49] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:04:49] => Foundation setup: downloadExtension
+[2019/07/11 01:04:51] => Downloaded file (igniter.frontend) to C:\xampp\htdocs\tasty-dev\setup/temp/db3a6d1fa569f443562a66b03548a222.zip
+[2019/07/11 01:04:51] => Foundation setup: downloadExtension +OK
+[2019/07/11 01:04:51] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 01:04:52] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:04:52] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:04:52] => Foundation setup: downloadExtension
+[2019/07/11 01:04:54] => Downloaded file (igniter.payregister) to C:\xampp\htdocs\tasty-dev\setup/temp/58f34c1535ce366d87573c5f9da1138e.zip
+[2019/07/11 01:04:54] => Foundation setup: downloadExtension +OK
+[2019/07/11 01:04:54] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 01:04:55] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:04:55] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:04:55] => Foundation setup: downloadExtension
+[2019/07/11 01:04:56] => Downloaded file (igniter.reservation) to C:\xampp\htdocs\tasty-dev\setup/temp/be3c89d37e593618642ef2e5f7e198c7.zip
+[2019/07/11 01:04:56] => Foundation setup: downloadExtension +OK
+[2019/07/11 01:04:56] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 01:04:56] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:04:56] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:04:56] => Foundation setup: downloadExtension
+[2019/07/11 01:04:58] => Downloaded file (igniter.cart) to C:\xampp\htdocs\tasty-dev\setup/temp/fa282679dd2434cdae8d547d1c5c5d8c.zip
+[2019/07/11 01:04:58] => Foundation setup: downloadExtension +OK
+[2019/07/11 01:04:58] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 01:04:58] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:04:58] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:04:58] => Foundation setup: downloadExtension
+[2019/07/11 01:05:03] => Downloaded file (igniter.pages) to C:\xampp\htdocs\tasty-dev\setup/temp/00afe6d516eb67a1f310fe21b7650e46.zip
+[2019/07/11 01:05:03] => Foundation setup: downloadExtension +OK
+[2019/07/11 01:05:03] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 01:05:03] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:05:03] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:05:03] => Foundation setup: downloadExtension
+[2019/07/11 01:05:07] => Downloaded file (igniter.user) to C:\xampp\htdocs\tasty-dev\setup/temp/af880bead8ef53d0b8be6e480655ca02.zip
+[2019/07/11 01:05:07] => Foundation setup: downloadExtension +OK
+[2019/07/11 01:05:07] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 01:05:07] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:05:07] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:05:07] => Foundation setup: downloadExtension
+[2019/07/11 01:05:09] => Downloaded file (igniter.local) to C:\xampp\htdocs\tasty-dev\setup/temp/587037c94cc1682b021f543fa2deb6a4.zip
+[2019/07/11 01:05:09] => Foundation setup: downloadExtension +OK
+[2019/07/11 01:05:09] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 01:05:09] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:05:09] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:05:09] => Foundation setup: downloadTheme
+[2019/07/11 01:05:12] => Downloaded file (tastyigniter-orange) to C:\xampp\htdocs\tasty-dev\setup/temp/d524ceb31a7e131d7d22e6398a45a960.zip
+[2019/07/11 01:05:12] => Foundation setup: downloadTheme +OK
+[2019/07/11 01:05:12] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 01:05:13] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:05:13] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:05:13] => Foundation setup: extractCore
+[2019/07/11 01:05:13] => Extracting [tastyigniter] file ef0eaeec4a461084eb2522e05b439f26.zip
+[2019/07/11 01:08:10] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:08:10] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:08:10] => Foundation setup: extractExtension
+[2019/07/11 01:08:10] => Extracting [igniter.frontend] file db3a6d1fa569f443562a66b03548a222.zip
+[2019/07/11 01:08:11] => Foundation setup: extractExtension +OK
+[2019/07/11 01:08:11] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 01:08:11] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:08:11] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:08:11] => Foundation setup: extractExtension
+[2019/07/11 01:08:11] => Extracting [igniter.payregister] file 58f34c1535ce366d87573c5f9da1138e.zip
+[2019/07/11 01:08:37] => Foundation setup: extractExtension +OK
+[2019/07/11 01:08:37] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 01:08:38] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:08:38] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:08:38] => Foundation setup: extractExtension
+[2019/07/11 01:08:38] => Extracting [igniter.reservation] file be3c89d37e593618642ef2e5f7e198c7.zip
+[2019/07/11 01:08:38] => Foundation setup: extractExtension +OK
+[2019/07/11 01:08:38] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 01:08:39] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:08:39] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:08:39] => Foundation setup: extractExtension
+[2019/07/11 01:08:39] => Extracting [igniter.cart] file fa282679dd2434cdae8d547d1c5c5d8c.zip
+[2019/07/11 01:08:40] => Foundation setup: extractExtension +OK
+[2019/07/11 01:08:40] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 01:08:40] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:08:40] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:08:40] => Foundation setup: extractExtension
+[2019/07/11 01:08:40] => Extracting [igniter.pages] file 00afe6d516eb67a1f310fe21b7650e46.zip
+[2019/07/11 01:08:41] => Foundation setup: extractExtension +OK
+[2019/07/11 01:08:41] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 01:08:41] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:08:41] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:08:41] => Foundation setup: extractExtension
+[2019/07/11 01:08:41] => Extracting [igniter.user] file af880bead8ef53d0b8be6e480655ca02.zip
+[2019/07/11 01:08:42] => Foundation setup: extractExtension +OK
+[2019/07/11 01:08:42] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 01:08:42] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:08:42] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:08:42] => Foundation setup: extractExtension
+[2019/07/11 01:08:42] => Extracting [igniter.local] file 587037c94cc1682b021f543fa2deb6a4.zip
+[2019/07/11 01:08:43] => Foundation setup: extractExtension +OK
+[2019/07/11 01:08:43] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 01:08:44] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:08:44] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:08:44] => Foundation setup: extractTheme
+[2019/07/11 01:08:44] => Extracting [tastyigniter-orange] file d524ceb31a7e131d7d22e6398a45a960.zip
+[2019/07/11 01:08:46] => Foundation setup: extractTheme +OK
+[2019/07/11 01:08:46] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 01:08:46] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:08:46] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:08:46] => Foundation setup: writeConfig
+[2019/07/10 11:08:47] => Foundation setup: writeConfig +OK
+[2019/07/10 11:08:47] => Execute handler (onInstall): Array
+(
+    [result] => 1
+)
+
+[2019/07/11 01:08:47] => .============================ POST REQUEST ==========================.
+[2019/07/11 01:08:47] => Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/07/11 01:08:47] => Foundation setup: finishInstall
+[2019/07/10 11:08:58] => Handler error (onInstall): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1.0.0'' COLLATE utf8mb4_unicode_ci' at line 1 (SQL: ALTER TABLE ti_extensions CHANGE version version VARCHAR(32) DEFAULT ''1.0.0'' COLLATE utf8mb4_unicode_ci)
+[2019/07/10 11:08:58] => Trace log:
+#0 C:\xampp\htdocs\tasty-dev\vendor\laravel\framework\src\Illuminate\Database\Connection.php(624): Illuminate\Database\Connection->runQueryCallback('ALTER TABLE ti_...', Array, Object(Closure))
+#1 C:\xampp\htdocs\tasty-dev\vendor\laravel\framework\src\Illuminate\Database\Connection.php(459): Illuminate\Database\Connection->run('ALTER TABLE ti_...', Array, Object(Closure))
+#2 C:\xampp\htdocs\tasty-dev\vendor\laravel\framework\src\Illuminate\Database\Schema\Blueprint.php(86): Illuminate\Database\Connection->statement('ALTER TABLE ti_...')
+#3 C:\xampp\htdocs\tasty-dev\vendor\laravel\framework\src\Illuminate\Database\Schema\Builder.php(252): Illuminate\Database\Schema\Blueprint->build(Object(Illuminate\Database\MySqlConnection), Object(Illuminate\Database\Schema\Grammars\MySqlGrammar))
+#4 C:\xampp\htdocs\tasty-dev\vendor\laravel\framework\src\Illuminate\Database\Schema\Builder.php(149): Illuminate\Database\Schema\Builder->build(Object(Illuminate\Database\Schema\Blueprint))
+#5 C:\xampp\htdocs\tasty-dev\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php(221): Illuminate\Database\Schema\Builder->table('extensions', Object(Closure))
+#6 C:\xampp\htdocs\tasty-dev\app\system\database\migrations\2018_03_30_000300_create_extension_settings_table.php(16): Illuminate\Support\Facades\Facade::__callStatic('table', Array)
+#7 C:\xampp\htdocs\tasty-dev\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(359): System\Database\Migrations\CreateExtensionSettingsTable->up()
+#8 C:\xampp\htdocs\tasty-dev\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(366): Illuminate\Database\Migrations\Migrator->Illuminate\Database\Migrations\{closure}()
+#9 C:\xampp\htdocs\tasty-dev\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(177): Illuminate\Database\Migrations\Migrator->runMigration(Object(System\Database\Migrations\CreateExtensionSettingsTable), 'up')
+#10 C:\xampp\htdocs\tasty-dev\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(146): Illuminate\Database\Migrations\Migrator->runUp('C:\\xampp\\htdocs...', 1, false)
+#11 C:\xampp\htdocs\tasty-dev\vendor\laravel\framework\src\Illuminate\Database\Migrations\Migrator.php(95): Illuminate\Database\Migrations\Migrator->runPending(Array, Array)
+#12 C:\xampp\htdocs\tasty-dev\vendor\tastyigniter\flame\src\Database\Migrations\Migrator.php(14): Illuminate\Database\Migrations\Migrator->run('C:\\xampp\\htdocs...', Array)
+#13 C:\xampp\htdocs\tasty-dev\app\system\classes\UpdateManager.php(178): Igniter\Flame\Database\Migrations\Migrator->run(Array)
+#14 C:\xampp\htdocs\tasty-dev\app\system\classes\UpdateManager.php(132): System\Classes\UpdateManager->migrateApp('System')
+#15 C:\xampp\htdocs\tasty-dev\setup\classes\SetupController.php(470): System\Classes\UpdateManager->update()
+#16 C:\xampp\htdocs\tasty-dev\setup\classes\SetupController.php(244): SetupController->completeSetup()
+#17 C:\xampp\htdocs\tasty-dev\setup\classes\SetupController.php(272): SetupController->onInstall()
+#18 C:\xampp\htdocs\tasty-dev\setup\classes\SetupController.php(27): SetupController->execPostHandler()
+#19 C:\xampp\htdocs\tasty-dev\setup\bootstrap.php(62): SetupController->__construct()
+#20 C:\xampp\htdocs\tasty-dev\setup.php(1): include_once('C:\\xampp\\htdocs...')
+#21 {main}

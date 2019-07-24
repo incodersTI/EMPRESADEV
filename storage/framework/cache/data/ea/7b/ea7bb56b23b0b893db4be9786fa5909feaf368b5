@@ -1,0 +1,16 @@
+1563335838a:1:{s:9:"error.php";a:5:{s:8:"fileName";s:9:"error.php";s:5:"mTime";i:1562799932;s:7:"content";s:244:"title = Error page (500)
+layout = default
+permalink = /error
+---
+<div class="jumbotron">
+    <div class="container">
+        <h1>Error</h1>
+        <p>We're sorry, but something went wrong and the page cannot be displayed.</p>
+    </div>
+</div>";s:6:"markup";s:180:"
+<div class="jumbotron">
+    <div class="container">
+        <h1>Error</h1>
+        <p>We're sorry, but something went wrong and the page cannot be displayed.</p>
+    </div>
+</div>";s:4:"code";N;}}

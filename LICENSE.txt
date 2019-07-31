@@ -1,3 +1,4 @@
+//mudar o autor da licença 
 The MIT License (MIT)
 
 Copyright (c) Samuel Adepoyigi <sam@sampoyigi.com>

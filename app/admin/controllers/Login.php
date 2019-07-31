@@ -21,7 +21,7 @@ class Login extends \Admin\Classes\AdminController
             return $this->redirect('dashboard');
 
         Template::setTitle(lang('admin::lang.login.text_title'));
-
+//efetuar mudanca de login do root 
         if (!($this->validateLoginForm() === FALSE)) {
             $credentials = [
                 'username' => post('user'),
